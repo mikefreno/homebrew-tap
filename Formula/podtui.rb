@@ -6,11 +6,11 @@ class Podtui < Formula
   # matching asset at formula-resolve time, so `brew install` works on both
   # Apple Silicon and Intel Macs.
   if Hardware::CPU.arm?
-    url "https://github.com/mikefreno/podtui/releases/download/v0.9.1/podtui-darwin-arm64.tar.gz"
-    sha256 "c5eae5e076d8febeb5d31a8e6c80b05e542fd8310b69622cbb82fb0e636a0c13"
+    url "https://github.com/mikefreno/podtui/releases/download/v0.9.2/podtui-darwin-arm64.tar.gz"
+    sha256 "c30db83671a1cafcb68a6a8b7b3f1efc6a2ae503d24b79f5632c79ac16d9c2e2"
   else
-    url "https://github.com/mikefreno/podtui/releases/download/v0.9.1/podtui-darwin-x64.tar.gz"
-    sha256 "33a79d3e884b5f27627469fdf3cb1a5d350ebe54175b93f89c00fddb900f9ac5"
+    url "https://github.com/mikefreno/podtui/releases/download/v0.9.2/podtui-darwin-x64.tar.gz"
+    sha256 "8183d62d4deb351608c0c0e7e4292ddd8b891482c0e668be7efc052f130736d7"
   end
 
   depends_on "mpv"
